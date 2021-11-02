@@ -1,0 +1,286 @@
+\begin{thebibliography}{10}
+
+\bibitem{SIPS}
+佐藤尚之, 金田育子, 京井良彦, 信澤宏至, 茂呂譲治, 橋口幸生, 宮林隆吉.
+\newblock {SIPS
+  ～来るべきソーシャルメディア時代の新しい生活者消費行動モデル概念～}.
+\newblock 電通モダン・コミュニケーション・ラボ.
+
+\bibitem{article_okumura}
+奥村学.
+\newblock ソーシャルメディアを対象としたテキストマイニング.
+\newblock 電子情報通信学会 基礎・境界ソサイエティ Fundamentals Review, Vol.~6,
+  No.~4, pp. 285--293, 2013.
+
+\bibitem{article_yokoyama}
+横山友也, 宝珍輝尚, 野宮浩揮, 佐藤哲司.
+\newblock 文章の特徴量を用いた質問回答文の印象の因子得点の推定.
+\newblock 日本感性工学会論文誌, Vol.~12, No.~1, pp. 15--24, 2013.
+
+\bibitem{article_kure}
+呉鍾勲, 鳥澤健太郎, 橋本力, 川田拓也, デサーガステイン, 風間淳一, 王軼謳.
+\newblock 意味的極性と単語クラスを用いたwhy型質問応答の改善.
+\newblock 情報処理学会論文誌, Vol.~54, No.~7, pp. 1951--1966, jul 2013.
+
+\bibitem{article_han}
+Dongli Han, Yuhei Kato, Kazuaki Takehara, Tetsuya Yamamoto, Kazunori Sugimura,
+  and Minoru Harada.
+\newblock Qa system metis based on web searching and semantic graph matching.
+\newblock In Zhongzhi Shi, K.~Shimohara, and D.~Feng, editors, {\em Intelligent
+  Information Processing III}, pp. 123--133, Boston, MA, 2007. Springer US.
+
+\bibitem{trend}
+難波英嗣.
+\newblock 動向情報の抽出と要約ー動向をまとめするー.
+\newblock 知能と情報, Vol.~22, No.~5, pp. 549--555, 2010.
+
+\bibitem{weblogs}
+古川忠延, 松尾豊, 大向一輝, 内山幸樹, 石塚満.
+\newblock ブログ上での話題伝播に注目した重要語判別.
+\newblock 知能と情報, Vol.~21, No.~4, pp. 557--566, aug 2009.
+
+\bibitem{discovering_periodicity_socialbookmark}
+山家雄介, 中村聡史, アダムヤトフト, 田中克己.
+\newblock
+  ソーシャルブックマーキングの周期性発見と時期連動型検索ランキングへの適用.
+\newblock 情報処理学会論文誌データベース（TOD）, Vol.~2, No.~3, pp. 130--140,
+  sep 2009.
+
+\bibitem{reranking_method_socialbookmark}
+山家雄介, 中村聡史, アダムヤトフト, 田中克己.
+\newblock ソーシャルブックマークの特性分析とそれに基づくweb
+  検索結果の再ランキング手法.
+\newblock 情報処理学会論文誌データベース（TOD）, Vol.~1, No.~1, pp. 88--100,
+  jun 2008.
+
+\bibitem{information_diffusion_model}
+吉川友也, 岩田具治, 澤田宏.
+\newblock ユーザの潜在特徴を考慮したソーシャルネットワーク上の情報拡散モデル.
+\newblock 情報処理学会論文誌データベース（TOD）, Vol.~6, No.~5, pp. 85--94, dec
+  2013.
+
+\bibitem{buzz_mrk}
+濱岡豊.
+\newblock バズ・マーケティングの展開.
+\newblock {\em Ad Studies}, No.~20, pp. 5--10, 2007.
+
+\bibitem{gartner}
+Mike~J. Walker.
+\newblock Hype cycle for emerging technologies, 2017.
+\newblock July 2017.
+
+\bibitem{trend_query_analysis}
+吉田光男, 荒瀬由紀.
+\newblock トレンドキーワードに関するウェブリソースの横断的分析.
+\newblock 情報処理学会論文誌データベース（TOD）, Vol.~9, No.~1, pp. 20--30, mar
+  2016.
+
+\bibitem{gradual_buzzwords}
+中島伸介, 張建偉, 稲垣陽一, 中本レン.
+\newblock 大規模なブログ記事時系列分析に基づく流行語候補の早期発見手法.
+\newblock 情報処理学会論文誌データベース（TOD）, Vol.~6, No.~1, pp. 1--15, jan
+  2013.
+
+\bibitem{topic_book}
+岩田具治.
+\newblock トピックモデル (機械学習プロフェッショナルシリーズ).
+\newblock 講談社, 2015.
+
+\bibitem{topic_burst}
+Jon Kleinberg.
+\newblock Bursty and hierarchical structure in streams.
+\newblock In {\em Proceedings of the Eighth ACM SIGKDD International Conference
+  on Knowledge Discovery and Data Mining}, KDD '02, pp. 91--101, New York, NY,
+  USA, 2002. ACM.
+
+\bibitem{article_matsumura}
+松村真宏, 三浦麻子, 柴内康文, 大澤幸生, 石塚満.
+\newblock 2ちゃんねるが盛り上がるダイナミズム.
+\newblock 情報処理学会論文誌, Vol.~45, No.~3, pp. 1053--1061, mar 2004.
+
+\bibitem{article_toriumi}
+鳥海不二夫, 山本仁志, 諏訪博彦, 岡田勇, 和泉潔, 橋本康弘.
+\newblock 大量ＳＮＳサイトの比較分析.
+\newblock 人工知能学会論文誌, Vol.~25, No.~1, pp. 78--89, 2010.
+
+\bibitem{punctuation_mark}
+福田誠, 吉田武尚, 吉田誠, 樫岡健史.
+\newblock 中学校技術・家庭科教科書電気領域の表記・表現について.
+\newblock 日本教科教育学会誌, Vol.~23, No.~3, pp. 37--42, 2000.
+
+\bibitem{reduplicated}
+大里彩乃.
+\newblock 畳語の研究.
+\newblock 言語文化研究, No.~22, pp. 1--16, mar 2014.
+
+\bibitem{Luhmann}
+高橋徹.
+\newblock 社会システム分化とゼマンティク : ルーマンにおける社会変動論の一視角.
+\newblock 社会学評論, Vol.~49, No.~4, pp. 620--634, mar 1999.
+
+\bibitem{moji_word_type_3}
+谷口永里子, 高橋真理子.
+\newblock 最新の女性ファッション雑誌における日本語の特徴の量的分析
+  ‐年代差に焦点をあてて‐.
+\newblock 言語処理学会第22回年次大会講演論文集, Vol. D5-1, , 2016.
+
+\bibitem{basic_vocabulary}
+佐藤政光.
+\newblock 日本語学習者の語彙習得に関する調査研究(1)基本語彙の問題点について.
+\newblock 明治大学人文科学研究所紀要, No.~44, pp. 169--180, feb 1999.
+
+\bibitem{semantic_attributes}
+国立国語研究所.
+\newblock 日本語教育のための基本語彙調査, 1984.
+
+\bibitem{factuality_annotation}
+松吉俊, 江口萌, 佐尾ちとせ, 村上浩司, 乾健太郎, 松本裕治.
+\newblock テキスト情報分析のための判断情報アノテーション.
+\newblock 電子情報通信学会論文誌. D, 情報・システム, Vol.~93, No.~6, pp.
+  705--713, jun 2010.
+
+\bibitem{modality}
+福田一雄.
+\newblock 日本語モダリティ覚え書き(その1).
+\newblock 言語の普遍性と個別性, No.~5, pp. 1--13, mar 2014.
+
+\bibitem{qa_feature}
+西原陽子, 松村真宏, 谷内田正彦.
+\newblock Q\&aコミュニティでの質疑応答パターンの理解.
+\newblock 人工知能学会全国大会論文集, Vol.~22, pp. 1--4, 2008.
+
+\bibitem{applied_proper_noun}
+Taku Kudo, Kaoru Yamamoto, and Yuji Matsumoto.
+\newblock Applying conditional random fields to japanese morphological
+  analysis.
+\newblock In {\em In Proc. of EMNLP}, pp. 230--237, 2004.
+
+\bibitem{applied_part_of_speech}
+中尾桂子.
+\newblock 品詞構成率に基づくテキスト分析の可能性 :
+  メール自己紹介文、小説、作文、名大コーパスの比較から.
+\newblock 大妻女子大学紀要. 文系, Vol.~42, pp. 128--101, mar 2010.
+
+\bibitem{extended_namedentity}
+関根聡, 竹内康介.
+\newblock 拡張固有表現オントロジー.
+\newblock
+  言語処理学会第13回年次大会ワークショップ「言語的オントロジーの構築・連携・利用」,
+  pp. 23--26, 2007.
+
+\bibitem{sentiment_verbs}
+小林のぞみ, 乾健太郎, 松本裕治, 立石健二, 福島俊一.
+\newblock 意見抽出のための評価表現の収集.
+\newblock 自然言語処理, Vol.~12, No.~3, pp. 203--222, 2005.
+
+\bibitem{sentiment_nouns}
+東山昌彦.
+\newblock 述語の選択選好性に着目した名詞評価極性の獲得.
+\newblock 言語処理学会第14回年次大会論文集, 2008, pp. 584--587, 2008.
+
+\bibitem{sentiment_spin}
+Hiroya Takamura, Takashi Inui, and Manabu Okumura.
+\newblock Extracting semantic orientations of words using spin model.
+\newblock In {\em Proceedings of the 43rd Annual Meeting on Association for
+  Computational Linguistics}, ACL '05, pp. 133--140, Stroudsburg, PA, USA,
+  2005. Association for Computational Linguistics.
+
+\bibitem{sentiment_survey}
+乾孝司, 奥村学.
+\newblock テキストを対象とした評価情報の分析に関する研究動向.
+\newblock 自然言語処理, Vol.~13, No.~3, pp. 201--241, jul 2006.
+
+\bibitem{sentiment_fe}
+小林のぞみ, 乾健太郎, 松本裕治.
+\newblock 意見情報の抽出／構造化のタスク仕様に関する考察.
+\newblock 情報処理学会研究報告自然言語処理（NL）, Vol. 2006, No.~1, pp.
+  111--118, jan 2006.
+
+\bibitem{definition_information}
+桑原（中島）尚子.
+\newblock 情報定義に内在する静的視座と動的視座.
+\newblock 日本社会情報学会全国大会研究発表論文集, Vol.~22, pp. 192--195, 2007.
+
+\bibitem{what_information}
+伊藤守.
+\newblock 情報概念について : 主知主義的な枠組みから解き放つために( 特集
+  社会情報学からの発信).
+\newblock 社会情報学, Vol.~1, No.~1, pp. 3--19, 2012.
+
+\bibitem{nmf}
+亀岡弘和.
+\newblock 非負値行列因子分解.
+\newblock 計測と制御, Vol.~51, No.~9, pp. 835--844, sep 2012.
+
+\bibitem{text_data_analysis_nmf}
+安川武彦.
+\newblock 非負値行列因子分解を用いたテキストデータ解析.
+\newblock 計算機統計学, Vol.~28, No.~1, pp. 41--55, 2015.
+
+\bibitem{lsi_required}
+Roger~B. Bradford.
+\newblock An empirical study of required dimensionality for large-scale latent
+  semantic indexing applications.
+\newblock In {\em Proceedings of the 17th ACM Conference on Information and
+  Knowledge Management}, CIKM '08, pp. 153--162, New York, NY, USA, 2008. ACM.
+
+\bibitem{Apple}
+{Appleサポートコミュニティ}.
+\newblock {\\https://discussionsjapan.apple.com}\\(最終閲覧日:2014-01-29).
+
+\bibitem{StackExchange}
+{Stack Exchange Data Dump}.
+\newblock {\\https://archive.org/details/stackexchange}\\(Publication date
+  2018-09-05).
+
+\bibitem{svr}
+Alex~J. Smola and Bernhard Sch\"{o}lkopf.
+\newblock A tutorial on support vector regression.
+\newblock {\em Statistics and Computing}, Vol.~14, No.~3, pp. 199--222, August
+  2004.
+
+\bibitem{svr_general}
+石川葉子, 水上雅博, 吉野幸一郎, Sakti Sakriani, 鈴木優, 中村哲.
+\newblock 感情表現を用いた説得対話システム.
+\newblock 人工知能学会論文誌, Vol.~33, No.~1, pp. DSH--B\_1--9, 2018.
+
+\bibitem{rbf}
+小林正幸, 小西康夫, 藤田貞雄, 石垣博行.
+\newblock サポートベクタ回帰モデルを用いた超音波モータの位置決め制御.
+\newblock 精密工学会誌論文集, Vol.~72, No.~5, pp. 596--601, may 2006.
+
+\bibitem{text_classification_showcase}
+永田昌明, 平博順.
+\newblock 情報論的学習理論とその応用：テキスト分類-学習理論の「見本市」-.
+\newblock 情報処理, Vol.~42, No.~1, pp. 32--37, jan 2001.
+
+\bibitem{pattern_recognition_randomforests}
+飯山将晃.
+\newblock 使える!統計検定・機械学習-iv : Random forestsを用いたパターン認識.
+\newblock システム／制御／情報, Vol.~59, No.~2, pp. 71--76, 2015.
+
+\bibitem{natural_gradient_learning}
+甘利俊一.
+\newblock 自然勾配学習法-学習空間の幾何学.
+\newblock 計測と制御, Vol.~40, No.~10, pp. 735--739, oct 2001.
+
+\bibitem{k-nearest_neighbours}
+浦田正夫.
+\newblock k-nearest neighbours 判別を用いたクラスター解析のバリデーション
+  (種々のモデルの統計的解析).
+\newblock 数理解析研究所講究録, Vol. 1603, pp. 111--119, jun 2008.
+
+\bibitem{book_media}
+亀井昭宏.
+\newblock 電通広告事典.
+\newblock 電通, 2008.
+
+\bibitem{insight_tech}
+Kensuke Mitsuzawa, Maito Tauchi, Mathieu Domoulin, Masanori Nakashima, and
+  Tomoya Mizumoto.
+\newblock Fkc corpus: a japanese corpus from new opinion survey service.
+\newblock {\em Proc. of the Novel Incentives for Collecting Data and Annotation
+  from People: types, implementation, tasking requirements, workflow and
+  results}, pp. 11--18, 2016.
+
+\end{thebibliography}

@@ -1,0 +1,1001 @@
+%%% ====================================================================
+%%%  BibTeX-file{
+%%%     author          = "Gerry Murray",
+%%%     version         = "1.2",
+%%%     date            = "2 April 2012",
+%%%     filename        = "acmsmall-sample-bibfile.bib",
+%%%     address         = "ACM, NY",
+%%%     email           = "murray at hq.acm.org",
+%%%     codetable       = "ISO/ASCII",
+%%%     keywords        = "ACM Reference Format, bibliography, citation, references",
+%%%     supported       = "yes",
+%%%     docstring       = "This BibTeX database file contains 'bibdata' entries
+%%%                        that 'match' the examples provided in the Specifications Document
+%%%                        AND, also, 'legacy'-type bibs. It should assist authors in
+%%%                        choosing the 'correct' at-bibtype and necessary bib-fields
+%%%                        so as to obtain the appropriate ACM Reference Format output.
+%%%                        It also contains many 'Standard Abbreviations'. "
+%%%  }
+%%% ====================================================================
+
+% Journals
+
+% First the Full Name is given, then the abbreviation used in the AMS Math
+% Reviews, with an indication if it could not be found there.
+% Note the 2nd overwrites the 1st, so swap them if you want the full name.
+
+ %{AMS}
+ @String{AMSTrans = "American Mathematical Society Translations" }
+ @String{AMSTrans = "Amer. Math. Soc. Transl." }
+ @String{BullAMS = "Bulletin of the American Mathematical Society" }
+ @String{BullAMS = "Bull. Amer. Math. Soc." }
+ @String{ProcAMS = "Proceedings of the American Mathematical Society" }
+ @String{ProcAMS = "Proc. Amer. Math. Soc." }
+ @String{TransAMS = "Transactions of the American Mathematical Society" }
+ @String{TransAMS = "Trans. Amer. Math. Soc." }
+
+ %ACM
+ @String{CACM = "Communications of the {ACM}" }
+ @String{CACM = "Commun. {ACM}" }
+ @String{CompServ = "Comput. Surveys" }
+ @String{JACM = "J. ACM" }
+ @String{ACMMathSoft = "{ACM} Transactions on Mathematical Software" }
+ @String{ACMMathSoft = "{ACM} Trans. Math. Software" }
+ @String{SIGNUM = "{ACM} {SIGNUM} Newsletter" }
+ @String{SIGNUM = "{ACM} {SIGNUM} Newslett." }
+
+ @String{AmerSocio = "American Journal of Sociology" }
+ @String{AmerStatAssoc = "Journal of the American Statistical Association" }
+ @String{AmerStatAssoc = "J. Amer. Statist. Assoc." }
+ @String{ApplMathComp = "Applied Mathematics and Computation" }
+ @String{ApplMathComp = "Appl. Math. Comput." }
+ @String{AmerMathMonthly = "American Mathematical Monthly" }
+ @String{AmerMathMonthly = "Amer. Math. Monthly" }
+ @String{BIT = "{BIT}" }
+ @String{BritStatPsych = "British Journal of Mathematical and Statistical
+          Psychology" }
+ @String{BritStatPsych = "Brit. J. Math. Statist. Psych." }
+ @String{CanMathBull = "Canadian Mathematical Bulletin" }
+ @String{CanMathBull = "Canad. Math. Bull." }
+ @String{CompApplMath = "Journal of Computational and Applied Mathematics" }
+ @String{CompApplMath = "J. Comput. Appl. Math." }
+ @String{CompPhys = "Journal of Computational Physics" }
+ @String{CompPhys = "J. Comput. Phys." }
+ @String{CompStruct = "Computers and Structures" }
+ @String{CompStruct = "Comput. \& Structures" }
+ @String{CompJour = "The Computer Journal" }
+ @String{CompJour = "Comput. J." }
+ @String{CompSysSci = "Journal of Computer and System Sciences" }
+ @String{CompSysSci = "J. Comput. System Sci." }
+ @String{Computing = "Computing" }
+ @String{ContempMath = "Contemporary Mathematics" }
+ @String{ContempMath = "Contemp. Math." }
+ @String{Crelle = "Crelle's Journal" }
+ @String{GiornaleMath = "Giornale di Mathematiche" }
+ @String{GiornaleMath = "Giorn. Mat." } % didn't find in AMS MR., ibid.
+
+ %IEEE
+ @String{Computer = "{IEEE} Computer" }
+ @String{IEEETransComp = "{IEEE} Transactions on Computers" }
+ @String{IEEETransComp = "{IEEE} Trans. Comput." }
+ @String{IEEETransAC = "{IEEE} Transactions on Automatic Control" }
+ @String{IEEETransAC = "{IEEE} Trans. Automat. Control" }
+ @String{IEEESpec = "{IEEE} Spectrum" } % didn't find in AMS MR
+ @String{ProcIEEE = "Proceedings of the {IEEE}" }
+ @String{ProcIEEE = "Proc. {IEEE}" } % didn't find in AMS MR
+ @String{IEEETransAeroElec = "{IEEE} Transactions on Aerospace and Electronic
+     Systems" }
+ @String{IEEETransAeroElec = "{IEEE} Trans. Aerospace Electron. Systems" }
+
+ @String{IMANumerAna = "{IMA} Journal of Numerical Analysis" }
+ @String{IMANumerAna = "{IMA} J. Numer. Anal." }
+ @String{InfProcLet = "Information Processing Letters" }
+ @String{InfProcLet = "Inform. Process. Lett." }
+ @String{InstMathApp = "Journal of the Institute of Mathematics and
+     its Applications" }
+ @String{InstMathApp = "J. Inst. Math. Appl." }
+ @String{IntControl = "International Journal of Control" }
+ @String{IntControl = "Internat. J. Control" }
+ @String{IntNumerEng = "International Journal for Numerical Methods in
+     Engineering" }
+ @String{IntNumerEng = "Internat. J. Numer. Methods Engrg." }
+ @String{IntSuper = "International Journal of Supercomputing Applications" }
+ @String{IntSuper = "Internat. J. Supercomputing Applic." } % didn't find
+%% in AMS MR
+ @String{Kibernetika = "Kibernetika" }
+ @String{JResNatBurStand = "Journal of Research of the National Bureau
+     of Standards" }
+ @String{JResNatBurStand = "J. Res. Nat. Bur. Standards" }
+ @String{LinAlgApp = "Linear Algebra and its Applications" }
+ @String{LinAlgApp = "Linear Algebra Appl." }
+ @String{MathAnaAppl = "Journal of Mathematical Analysis and Applications" }
+ @String{MathAnaAppl = "J. Math. Anal. Appl." }
+ @String{MathAnnalen = "Mathematische Annalen" }
+ @String{MathAnnalen = "Math. Ann." }
+ @String{MathPhys = "Journal of Mathematical Physics" }
+ @String{MathPhys = "J. Math. Phys." }
+ @String{MathComp = "Mathematics of Computation" }
+ @String{MathComp = "Math. Comp." }
+ @String{MathScand = "Mathematica Scandinavica" }
+ @String{MathScand = "Math. Scand." }
+ @String{TablesAidsComp = "Mathematical Tables and Other Aids to Computation" }
+ @String{TablesAidsComp = "Math. Tables Aids Comput." }
+ @String{NumerMath = "Numerische Mathematik" }
+ @String{NumerMath = "Numer. Math." }
+ @String{PacificMath = "Pacific Journal of Mathematics" }
+ @String{PacificMath = "Pacific J. Math." }
+ @String{ParDistComp = "Journal of Parallel and Distributed Computing" }
+ @String{ParDistComp = "J. Parallel and Distrib. Comput." } % didn't find
+%% in AMS MR
+ @String{ParComputing = "Parallel Computing" }
+ @String{ParComputing = "Parallel Comput." }
+ @String{PhilMag = "Philosophical Magazine" }
+ @String{PhilMag = "Philos. Mag." }
+ @String{ProcNAS = "Proceedings of the National Academy of Sciences
+                    of the USA" }
+ @String{ProcNAS = "Proc. Nat. Acad. Sci. U. S. A." }
+ @String{Psychometrika = "Psychometrika" }
+ @String{QuartMath = "Quarterly Journal of Mathematics, Oxford, Series (2)" }
+ @String{QuartMath = "Quart. J. Math. Oxford Ser. (2)" }
+ @String{QuartApplMath = "Quarterly of Applied Mathematics" }
+ @String{QuartApplMath = "Quart. Appl. Math." }
+ @String{RevueInstStat = "Review of the International Statisical Institute" }
+ @String{RevueInstStat = "Rev. Inst. Internat. Statist." }
+
+ %SIAM
+ @String{JSIAM = "Journal of the Society for Industrial and Applied
+     Mathematics" }
+ @String{JSIAM = "J. Soc. Indust. Appl. Math." }
+ @String{JSIAMB = "Journal of the Society for Industrial and Applied
+     Mathematics, Series B, Numerical Analysis" }
+ @String{JSIAMB = "J. Soc. Indust. Appl. Math. Ser. B Numer. Anal." }
+ @String{SIAMAlgMeth = "{SIAM} Journal on Algebraic and Discrete Methods" }
+ @String{SIAMAlgMeth = "{SIAM} J. Algebraic Discrete Methods" }
+ @String{SIAMAppMath = "{SIAM} Journal on Applied Mathematics" }
+ @String{SIAMAppMath = "{SIAM} J. Appl. Math." }
+ @String{SIAMComp = "{SIAM} Journal on Computing" }
+ @String{SIAMComp = "{SIAM} J. Comput." }
+ @String{SIAMMatrix = "{SIAM} Journal on Matrix Analysis and Applications" }
+ @String{SIAMMatrix = "{SIAM} J. Matrix Anal. Appl." }
+ @String{SIAMNumAnal = "{SIAM} Journal on Numerical Analysis" }
+ @String{SIAMNumAnal = "{SIAM} J. Numer. Anal." }
+ @String{SIAMReview = "{SIAM} Review" }
+ @String{SIAMReview = "{SIAM} Rev." }
+ @String{SIAMSciStat = "{SIAM} Journal on Scientific and Statistical
+     Computing" }
+ @String{SIAMSciStat = "{SIAM} J. Sci. Statist. Comput." }
+
+ @String{SoftPracExp = "Software Practice and Experience" }
+ @String{SoftPracExp = "Software Prac. Experience" } % didn't find in AMS MR
+ @String{StatScience = "Statistical Science" }
+ @String{StatScience = "Statist. Sci." }
+ @String{Techno = "Technometrics" }
+ @String{USSRCompMathPhys = "{USSR} Computational Mathematics and Mathematical
+     Physics" }
+ @String{USSRCompMathPhys = "{U. S. S. R.} Comput. Math. and Math. Phys." }
+ @String{VLSICompSys = "Journal of {VLSI} and Computer Systems" }
+ @String{VLSICompSys = "J. {VLSI} Comput. Syst." }
+ @String{ZAngewMathMech = "Zeitschrift fur Angewandte Mathematik und
+     Mechanik" }
+ @String{ZAngewMathMech = "Z. Angew. Math. Mech." }
+ @String{ZAngewMathPhys = "Zeitschrift fur Angewandte Mathematik und Physik" }
+ @String{ZAngewMathPhys = "Z. Angew. Math. Phys." }
+
+% Publishers % ================================================= |
+
+ @String{Academic = "Academic Press" }
+ @String{ACMPress = "{ACM} Press" }
+ @String{AdamHilger = "Adam Hilger" }
+ @String{AddisonWesley = "Addison-Wesley" }
+ @String{AllynBacon = "Allyn and Bacon" }
+ @String{AMS = "American Mathematical Society" }
+ @String{Birkhauser = "Birkha{\"u}ser" }
+ @String{CambridgePress = "Cambridge University Press" }
+ @String{Chelsea = "Chelsea" }
+ @String{ClaredonPress = "Claredon Press" }
+ @String{DoverPub = "Dover Publications" }
+ @String{Eyolles = "Eyolles" }
+ @String{HoltRinehartWinston = "Holt, Rinehart and Winston" }
+ @String{Interscience = "Interscience" }
+ @String{JohnsHopkinsPress = "The Johns Hopkins University Press" }
+ @String{JohnWileySons = "John Wiley and Sons" }
+ @String{Macmillan = "Macmillan" }
+ @String{MathWorks = "The Math Works Inc." }
+ @String{McGrawHill = "McGraw-Hill" }
+ @String{NatBurStd = "National Bureau of Standards" }
+ @String{NorthHolland = "North-Holland" }
+ @String{OxfordPress = "Oxford University Press" }  %address Oxford or London?
+ @String{PergamonPress = "Pergamon Press" }
+ @String{PlenumPress = "Plenum Press" }
+ @String{PrenticeHall = "Prentice-Hall" }
+ @String{SIAMPub = "{SIAM} Publications" }
+ @String{Springer = "Springer-Verlag" }
+ @String{TexasPress = "University of Texas Press" }
+ @String{VanNostrand = "Van Nostrand" }
+ @String{WHFreeman = "W. H. Freeman and Co." }
+
+%Entries
+%--------------------------------------------------------
+
+@article{SIPS,
+  author = {佐藤 尚之，金田 育子，京井 良彦，信澤 宏至，茂呂 譲治，橋口 幸生，宮林 隆吉},
+  title = "{SIPS 〜来るべきソーシャルメディア時代の新しい生活者消費行動モデル概念〜}",
+  note = "電通モダン・コミュニケーション・ラボ"
+}
+%  note = "\url{http://www.dentsu.co.jp/sips/index.html}
+%  howpublished = "\url{http://www.dentsu.co.jp/sips/index.html}
+
+%%%用語の定義(オンラインコミュニティ)
+%%%------------------------------------------------%%%
+@article{article_okumura,
+author="奥村 学",
+title="ソーシャルメディアを対象としたテキストマイニング",
+journal="電子情報通信学会 基礎・境界ソサイエティ Fundamentals Review",
+ISSN="",
+publisher="一般社団法人 電子情報通信学会",
+year="2013",
+month="",
+volume="6",
+number="4",
+pages="285-293",
+URL="https://ci.nii.ac.jp/naid/130004554748/",
+DOI="10.1587/essfr.6.285",
+}
+%http://ci.nii.ac.jp/naid/130004554748
+
+@article{article_yokoyama,
+author="横山 友也 and 宝珍 輝尚 and 野宮 浩揮 and 佐藤 哲司",
+title="文章の特徴量を用いた質問回答文の印象の因子得点の推定",
+journal="日本感性工学会論文誌",
+ISSN="1884-0833",
+publisher="日本感性工学会",
+year="2013",
+month="",
+volume="12",
+number="1",
+pages="15-24",
+URL="https://ci.nii.ac.jp/naid/130003377984/",
+DOI="10.5057/jjske.12.15",
+}
+%http://ci.nii.ac.jp/naid/130003377984
+
+@article{article_kure,
+author="呉 鍾勲 and 鳥澤 健太郎 and 橋本 力 and 川田 拓也 and デサーガ ステイン and 風間 淳一 and 王 軼謳",
+title="意味的極性と単語クラスを用いたWhy型質問応答の改善",
+journal="情報処理学会論文誌",
+ISSN="1882-7764",
+publisher="一般社団法人 情報処理学会",
+year="2013",
+month="jul",
+volume="54",
+number="7",
+pages="1951-1966",
+URL="https://ci.nii.ac.jp/naid/110009586576/",
+DOI="",
+}
+%https://ci.nii.ac.jp/naid/110009586576/
+
+@InProceedings{article_han,
+author="Han, Dongli
+and Kato, Yuhei
+and Takehara, Kazuaki
+and Yamamoto, Tetsuya
+and Sugimura, Kazunori
+and Harada, Minoru",
+editor="Shi, Zhongzhi
+and Shimohara, K.
+and Feng, D.",
+title="QA System Metis Based on Web Searching and Semantic Graph Matching",
+booktitle="Intelligent Information Processing III",
+year="2007",
+publisher="Springer US",
+address="Boston, MA",
+pages="123--133",
+abstract="We have developed a question-answering system Metis with natural-language interface. Metis generates the answer to a question by comparing the semantic graph of the question sentence with sentences discovered on the Internet as knowledge source. Specifically, we first get a set of semantic frames for the question sentence, as the output from a semantic analysis system, SAGE, Then we extract several keywords from all semantic frames using SVM. After that we search the Web to find knowledge sentences based on the keywords and input each knowledge sentence into SAGE in order to get its semantic graphs similarly. Finally, the similarities between the semantic graph of the question sentence and that of each knowledge sentence are calculated to determine the most reliable knowledge sentence, in which a constituent is chosen as the answer to the question. An experiment to examine the effectiveness of our method showed that 65{\%} of the questions for which suitable knowledge sentences had been found were replied correctly.",
+isbn="978-0-387-44641-7"
+}
+%https://link.springer.com/chapter/10.1007/978-0-387-44641-7_13
+
+%%%関連研究(情報発信メディア)
+%%%------------------------------------------------%%%
+@article{trend,
+author="難波 英嗣",
+title="動向情報の抽出と要約ー動向をまとめするー",
+journal="知能と情報",
+ISSN="1347-7986",
+publisher="日本知能情報ファジィ学会",
+year="2010",
+month="",
+volume="22",
+number="5",
+pages="549-555",
+URL="https://ci.nii.ac.jp/naid/130006320504/",
+DOI="10.3156/jsoft.22.5_549",
+}
+%https://ci.nii.ac.jp/naid/130006320504/
+
+@article{weblogs,
+author="古川 忠延 and 松尾 豊 and 大向 一輝 and 内山 幸樹 and 石塚 満",
+title="ブログ上での話題伝播に注目した重要語判別",
+journal="知能と情報",
+ISSN="13477986",
+publisher="日本知能情報ファジィ学会",
+year="2009",
+month="aug",
+volume="21",
+number="4",
+pages="557-566",
+URL="https://ci.nii.ac.jp/naid/10025994950/",
+DOI="10.3156/jsoft.21.557",
+}
+%https://ci.nii.ac.jp/naid/10025994950/
+
+@article{discovering_periodicity_socialbookmark,
+author="山家 雄介 and 中村 聡史 and アダム ヤトフト and 田中 克己",
+title="ソーシャルブックマーキングの周期性発見と時期連動型検索ランキングへの適用",
+journal="情報処理学会論文誌データベース（TOD）",
+ISSN="1882-7799",
+publisher="一般社団法人 情報処理学会",
+year="2009",
+month="sep",
+volume="2",
+number="3",
+pages="130-140",
+URL="https://ci.nii.ac.jp/naid/110007990059/",
+DOI="",
+}
+%https://ci.nii.ac.jp/naid/110007990059/
+
+@article{reranking_method_socialbookmark,
+author="山家 雄介 and 中村 聡史 and アダム ヤトフト and 田中 克己",
+title="ソーシャルブックマークの特性分析とそれに基づくWeb 検索結果の再ランキング手法",
+journal="情報処理学会論文誌データベース（TOD）",
+ISSN="1882-7799",
+publisher="一般社団法人 情報処理学会",
+year="2008",
+month="jun",
+volume="1",
+number="1",
+pages="88-100",
+URL="https://ci.nii.ac.jp/naid/110007990004/",
+DOI="",
+}
+%https://ci.nii.ac.jp/naid/110007990004/
+
+@article{information_diffusion_model,
+author="吉川 友也 and 岩田 具治 and 澤田 宏",
+title="ユーザの潜在特徴を考慮したソーシャルネットワーク上の情報拡散モデル",
+journal="情報処理学会論文誌データベース（TOD）",
+ISSN="1882-7799",
+publisher="一般社団法人 情報処理学会",
+year="2013",
+month="dec",
+volume="6",
+number="5",
+pages="85-94",
+URL="https://ci.nii.ac.jp/naid/110009656664/",
+DOI="",
+}
+%https://ci.nii.ac.jp/naid/110009656664/
+
+@article{buzz_mrk,
+author="濱岡 豊",
+title="バズ・マーケティングの展開",
+journal="Ad Studies",
+number="20",
+year="2007",
+pages="5-10",
+URL="http://www.yhmf.jp/activity/adstudies/20.html",
+DOI="",
+}
+%http://www.yhmf.jp/activity/adstudies/20.html
+
+@article{gartner,
+author="Mike J. Walker",
+title="Hype Cycle for Emerging Technologies, 2017.",
+publisher="Gartner",
+year="2017",
+month="July"
+}
+%http://www2.caict.ac.cn/zscp/qqzkgz/qqzkgz_zdzsq/201708/P020170831493337899927.pdf
+%https://www.gartner.com/newsroom/id/3784363
+
+@article{article_matsumura,
+author="松村 真宏 and 三浦 麻子 and 柴内 康文 and 大澤 幸生 and 石塚 満",
+title="2ちゃんねるが盛り上がるダイナミズム",
+journal="情報処理学会論文誌",
+ISSN="1882-7764",
+publisher="一般社団法人 情報処理学会",
+year="2004",
+month="mar",
+volume="45",
+number="3",
+pages="1053-1061",
+URL="https://ci.nii.ac.jp/naid/110002712154/",
+DOI="",
+}
+%http://ci.nii.ac.jp/naid/110002712154
+
+@article{article_toriumi,
+author="鳥海 不二夫 and 山本 仁志 and 諏訪 博彦 and 岡田 勇 and 和泉 潔 and 橋本 康弘",
+title="大量ＳＮＳサイトの比較分析",
+journal="人工知能学会論文誌",
+ISSN="1346-0714",
+publisher="一般社団法人 人工知能学会",
+year="2010",
+month="",
+volume="25",
+number="1",
+pages="78-89",
+URL="https://ci.nii.ac.jp/naid/130000151239/",
+DOI="10.1527/tjsai.25.78",
+}
+%http://ci.nii.ac.jp/naid/130000151239
+
+@article{trend_query_analysis,
+author="吉田 光男 and 荒瀬 由紀",
+title="トレンドキーワードに関するウェブリソースの横断的分析",
+journal="情報処理学会論文誌データベース（TOD）",
+ISSN="1882-7799",
+publisher="一般社団法人 情報処理学会",
+year="2016",
+month="mar",
+volume="9",
+number="1",
+pages="20-30",
+URL="https://ci.nii.ac.jp/naid/120005732044/",
+DOI="",
+}
+%https://ci.nii.ac.jp/naid/120005732044/
+
+@article{gradual_buzzwords,
+author="中島 伸介 and 張 建偉 and 稲垣 陽一 and 中本 レン",
+title="大規模なブログ記事時系列分析に基づく流行語候補の早期発見手法",
+journal="情報処理学会論文誌データベース（TOD）",
+ISSN="1882-7799",
+publisher="一般社団法人 情報処理学会",
+year="2013",
+month="jan",
+volume="6",
+number="1",
+pages="1-15",
+URL="https://ci.nii.ac.jp/naid/110009514611/",
+DOI="",
+}
+%https://ci.nii.ac.jp/naid/110009514611/
+
+@book{topic_book,
+author = "岩田 具治",
+title = "トピックモデル (機械学習プロフェッショナルシリーズ)",
+publisher = "講談社",
+year = "2015"
+}
+
+@inproceedings{topic_burst,
+ author = {Kleinberg, Jon},
+ title = {Bursty and Hierarchical Structure in Streams},
+ booktitle = {Proceedings of the Eighth ACM SIGKDD International Conference on Knowledge Discovery and Data Mining},
+ series = {KDD '02},
+ year = {2002},
+ isbn = {1-58113-567-X},
+ location = {Edmonton, Alberta, Canada},
+ pages = {91--101},
+ numpages = {11},
+ url = {http://doi.acm.org/10.1145/775047.775061},
+ doi = {10.1145/775047.775061},
+ acmid = {775061},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+} 
+%https://doi.org/10.1023/A:102494062931
+%https://dl.acm.org/citation.cfm?id=775061
+%%%------------------------------------------------%%%
+
+%%%関連研究(特徴量)
+%%%------------------------------------------------%%%
+
+%%%表層情報
+%%%---------------------
+@article{punctuation_mark,
+author="福田 誠 and 吉田 武尚 and 吉田 誠 and 樫岡 健史",
+title="中学校技術・家庭科教科書電気領域の表記・表現について",
+journal="日本教科教育学会誌",
+ISSN="0288-0334",
+publisher="日本教科教育学会",
+year="2000",
+month="",
+volume="23",
+number="3",
+pages="37-42",
+URL="https://ci.nii.ac.jp/naid/110008094388/",
+DOI="10.18993/jcrdajp.23.3_37",
+}
+%https://ci.nii.ac.jp/naid/110008094388
+%%%---------------------
+
+%%%辞書
+%%%---------------------
+@article{reduplicated,
+author="大里 彩乃",
+title="畳語の研究",
+journal="言語文化研究",
+ISSN="0918-7766",
+publisher="東京女子大学言語文化研究会",
+year="2014",
+month="mar",
+volume="",
+number="22",
+pages="1-16",
+URL="https://ci.nii.ac.jp/naid/120006512323/",
+DOI="",
+}
+
+@article{Luhmann,
+author="高橋 徹",
+title="社会システム分化とゼマンティク : ルーマンにおける社会変動論の一視角",
+journal="社会学評論",
+ISSN="00215414",
+publisher="日本社会学会",
+year="1999",
+month="mar",
+volume="49",
+number="4",
+pages="620-634",
+URL="https://ci.nii.ac.jp/naid/110000226365/",
+DOI="10.4057/jsr.49.620",
+}
+%https://ci.nii.ac.jp/naid/110000226365/
+
+@article{moji_word_type_3,
+author="谷口 永里子 and 高橋 真理子",
+title="最新の女性ファッション雑誌における日本語の特徴の量的分析 ‐年代差に焦点をあてて‐",
+journal="言語処理学会第22回年次大会講演論文集",
+publisher="一般社団法人 言語処理学会",
+year="2016",
+volume="D5-1",
+}
+%https://www.jaist.ac.jp/project/NLP_Portal/doc/LR/lr-ucase-j-20.html
+
+@article{basic_vocabulary,
+author="佐藤 政光",
+title="日本語学習者の語彙習得に関する調査研究(1)基本語彙の問題点について",
+journal="明治大学人文科学研究所紀要",
+ISSN="05433894",
+publisher="明治大学人文科学研究所",
+year="1999",
+month="feb",
+volume="",
+number="44",
+pages="169-180",
+URL="https://ci.nii.ac.jp/naid/120001440183/",
+DOI="",
+}
+%https://ci.nii.ac.jp/naid/120001440183
+
+@article{semantic_attributes,
+author="国立国語研究所",
+title="",
+journal="日本語教育のための基本語彙調査",
+ISSN="",
+publisher="秀英出版",
+year="1984",
+month="",
+volume="",
+number="",
+pages="",
+URL="https://ci.nii.ac.jp/naid/10000022583/",
+DOI="",
+}
+%https://ci.nii.ac.jp/naid/10000022583/
+
+@article{factuality_annotation,
+author="松吉 俊 and 江口 萌 and 佐尾 ちとせ and 村上 浩司 and 乾 健太郎 and 松本 裕治",
+title="テキスト情報分析のための判断情報アノテーション",
+journal="電子情報通信学会論文誌. D, 情報・システム",
+ISSN="18804535",
+publisher="一般社団法人 電子情報通信学会",
+year="2010",
+month="jun",
+volume="93",
+number="6",
+pages="705-713",
+URL="https://ci.nii.ac.jp/naid/110007618345/",
+DOI="",
+}
+%https://ci.nii.ac.jp/naid/110007618345
+
+@article{modality,
+author="福田 一雄",
+title="日本語モダリティ覚え書き(その1)",
+journal="言語の普遍性と個別性",
+ISSN="1884-863X",
+publisher="新潟大学大学院現代社会文化研究科「言語の普遍性と個別性」プロジェクト",
+year="2014",
+month="mar",
+volume="",
+number="5",
+pages="1-13",
+URL="https://ci.nii.ac.jp/naid/120005425700/",
+DOI="",
+}
+%https://ci.nii.ac.jp/naid/120005425700
+
+@article{qa_feature,
+author="西原 陽子 and 松村 真宏 and 谷内田 正彦",
+title="Q\&Aコミュニティでの質疑応答パターンの理解",
+journal="人工知能学会全国大会論文集",
+ISSN="1347-9881",
+publisher="一般社団法人 人工知能学会",
+year="2008",
+month="",
+volume="22",
+number="",
+pages="1-4",
+URL="https://ci.nii.ac.jp/naid/40020234005/",
+DOI="",
+}
+%https://ci.nii.ac.jp/naid/40020234005
+
+@INPROCEEDINGS{applied_proper_noun,
+    author = {Taku Kudo and Kaoru Yamamoto and Yuji Matsumoto},
+    title = {Applying conditional random fields to Japanese morphological analysis},
+    booktitle = {In Proc. of EMNLP},
+    year = {2004},
+    pages = {230--237}
+}
+%http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.79.4154
+
+@article{applied_part_of_speech,
+author="中尾 桂子",
+title="品詞構成率に基づくテキスト分析の可能性 : メール自己紹介文、小説、作文、名大コーパスの比較から",
+journal="大妻女子大学紀要. 文系",
+ISSN="03020304",
+publisher="大妻女子大学",
+year="2010",
+month="mar",
+volume="42",
+number="",
+pages="128-101",
+URL="https://ci.nii.ac.jp/naid/110007535705/",
+DOI="",
+}
+%https://ci.nii.ac.jp/naid/110007535705
+
+@article{extended_namedentity,
+author="関根 聡 and 竹内 康介",
+title="拡張固有表現オントロジー",
+journal="言語処理学会第13回年次大会ワークショップ「言語的オントロジーの構築・連携・利用」",
+publisher="一般社団法人 言語処理学会",
+year="2007",
+pages="23-26",
+}
+
+@article{sentiment_verbs,
+author="小林 のぞみ and 乾 健太郎 and 松本 裕治 and 立石 健二 and 福島 俊一",
+title="意見抽出のための評価表現の収集",
+journal="自然言語処理",
+ISSN="1340-7619",
+publisher="一般社団法人 言語処理学会",
+year="2005",
+month="",
+volume="12",
+number="3",
+pages="203-222",
+URL="https://ci.nii.ac.jp/naid/130004291853/",
+DOI="10.5715/jnlp.12.3_203",
+}
+%https://ci.nii.ac.jp/naid/130004291853
+
+@article{sentiment_nouns,
+author="東山 昌彦",
+title="述語の選択選好性に着目した名詞評価極性の獲得",
+journal="言語処理学会第14回年次大会論文集, 2008",
+ISSN="",
+publisher="一般社団法人 言語処理学会",
+year="2008",
+month="",
+volume="",
+number="",
+pages="584-587",
+URL="https://ci.nii.ac.jp/naid/20001633192/",
+DOI="",
+}
+%https://ci.nii.ac.jp/naid/20001633192/
+
+@inproceedings{sentiment_spin,
+ author = {Takamura, Hiroya and Inui, Takashi and Okumura, Manabu},
+ title = {Extracting Semantic Orientations of Words Using Spin Model},
+ booktitle = {Proceedings of the 43rd Annual Meeting on Association for Computational Linguistics},
+ series = {ACL '05},
+ year = {2005},
+ location = {Ann Arbor, Michigan},
+ pages = {133--140},
+ numpages = {8},
+ url = {https://doi.org/10.3115/1219840.1219857},
+ doi = {10.3115/1219840.1219857},
+ acmid = {1219857},
+ publisher = {Association for Computational Linguistics},
+ address = {Stroudsburg, PA, USA},
+} 
+%https://dl.acm.org/citation.cfm?id=1219857
+
+@article{sentiment_survey,
+author="乾 孝司 and 奥村 学",
+title="テキストを対象とした評価情報の分析に関する研究動向",
+journal="自然言語処理",
+ISSN="13407619",
+publisher="一般社団法人 言語処理学会",
+year="2006",
+month="jul",
+volume="13",
+number="3",
+pages="201-241",
+URL="https://ci.nii.ac.jp/naid/10018202904/",
+DOI="",
+}
+%https://ci.nii.ac.jp/naid/10018202904
+
+@article{sentiment_fe,
+author="小林 のぞみ and 乾 健太郎 and 松本 裕治",
+title="意見情報の抽出／構造化のタスク仕様に関する考察",
+journal="情報処理学会研究報告自然言語処理（NL）",
+ISSN="09196072",
+publisher="一般社団法人 情報処理学会",
+year="2006",
+month="jan",
+volume="2006",
+number="1",
+pages="111-118",
+URL="https://ci.nii.ac.jp/naid/110004075920/",
+DOI="",
+}
+%https://ci.nii.ac.jp/naid/110004075920
+%%%------------------------------------------------%%%
+
+%%%提案手法
+%%%重要な質問記事と評価対象
+%%%------------------------------------------------%%%
+@article{definition_information,
+author="桑原（中島） 尚子",
+title="情報定義に内在する静的視座と動的視座",
+journal="日本社会情報学会全国大会研究発表論文集",
+ISSN="",
+publisher="日本社会情報学会",
+year="2007",
+month="",
+volume="22",
+number="",
+pages="192-195",
+URL="https://ci.nii.ac.jp/naid/130004605759/",
+DOI="10.14836/jasi.22.0.192.0",
+}
+%https://ci.nii.ac.jp/naid/130004605759/
+
+@article{what_information,
+author="伊藤 守",
+title="情報概念について : 主知主義的な枠組みから解き放つために( 特集 社会情報学からの発信)",
+journal="社会情報学",
+ISSN="2187-2775",
+publisher="一般社団法人 社会情報学会",
+year="2012",
+month="",
+volume="1",
+number="1",
+pages="3-19",
+URL="https://ci.nii.ac.jp/naid/110009553329/",
+DOI="10.14836/ssi.1.1_3",
+}
+%https://ci.nii.ac.jp/naid/110009553329/
+
+%%%------------------------------------------------%%%
+
+%%%提案手法
+%%%------------------------------------------------%%%
+@article{nmf,
+author="亀岡 弘和",
+title="非負値行列因子分解",
+journal="計測と制御",
+ISSN="04534662",
+publisher="公益社団法人 計測自動制御学会",
+year="2012",
+month="sep",
+volume="51",
+number="9",
+pages="835-844",
+URL="https://ci.nii.ac.jp/naid/10031007459/",
+DOI="",
+}
+%http://ci.nii.ac.jp/naid/10031007459
+
+@article{text_data_analysis_nmf,
+author="安川 武彦",
+title="非負値行列因子分解を用いたテキストデータ解析",
+journal="計算機統計学",
+ISSN="0914-8930",
+publisher="日本計算機統計学会",
+year="2015",
+month="",
+volume="28",
+number="1",
+pages="41-55",
+URL="https://ci.nii.ac.jp/naid/130005631735/",
+DOI="10.20551/jscswabun.28.1_41",
+}
+%https://ci.nii.ac.jp/naid/130005631735/
+%%%------------------------------------------------%%%
+
+%%%評価
+%%%------------------------------------------------%%%
+@inproceedings{lsi_required,
+ author = {Bradford, Roger B.},
+ title = {An Empirical Study of Required Dimensionality for Large-scale Latent Semantic Indexing Applications},
+ booktitle = {Proceedings of the 17th ACM Conference on Information and Knowledge Management},
+ series = {CIKM '08},
+ year = {2008},
+ isbn = {978-1-59593-991-3},
+ location = {Napa Valley, California, USA},
+ pages = {153--162},
+ numpages = {10},
+ url = {http://doi.acm.org/10.1145/1458082.1458105},
+ doi = {10.1145/1458082.1458105},
+ acmid = {1458105},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {dimensionality, latent semantic indexing, lsi},
+} 
+%https://dl.acm.org/citation.cfm?id=1458105
+
+
+@Misc{Apple,
+  title        = "{Appleサポートコミュニティ}",
+  howpublished = "{\\https://discussionsjapan.apple.com}\\(最終閲覧日:2014-01-29)"
+}
+%  note      = "(最終閲覧日:2014-01-29)"
+
+@Misc{StackExchange,
+  title        = "{Stack Exchange Data Dump}",
+  howpublished = "{\\https://archive.org/details/stackexchange}\\(Publication date 2018-09-05)"
+}
+%  note      = "(Publication date 2018-09-05)"
+
+@article{svr,
+ author = {Smola, Alex J. and Sch\"{o}lkopf, Bernhard},
+ title = {A Tutorial on Support Vector Regression},
+ journal = {Statistics and Computing},
+ issue_date = {August 2004},
+ volume = {14},
+ number = {3},
+ month = aug,
+ year = {2004},
+ issn = {0960-3174},
+ pages = {199--222},
+ numpages = {24},
+ url = {https://doi.org/10.1023/B:STCO.0000035301.49549.88},
+ doi = {10.1023/B:STCO.0000035301.49549.88},
+ acmid = {1011939},
+ publisher = {Kluwer Academic Publishers},
+ address = {Hingham, MA, USA},
+ keywords = {machine learning, regression estimation, support vector machines},
+} 
+%DOI: https://doi.org/10.1023/B:STCO.0000035301.49549.88
+%https://dl.acm.org/citation.cfm?id=1011939
+
+@article{svr_general,
+author="石川 葉子 and 水上 雅博 and 吉野 幸一郎 and Sakti Sakriani and 鈴木 優 and 中村 哲",
+title="感情表現を用いた説得対話システム",
+journal="人工知能学会論文誌",
+ISSN="1346-0714",
+publisher="一般社団法人 人工知能学会",
+year="2018",
+month="",
+volume="33",
+number="1",
+pages="DSH-B\_1-9",
+URL="https://ci.nii.ac.jp/naid/130006327320/",
+DOI="10.1527/tjsai.DSH-B",
+}
+%https://ci.nii.ac.jp/naid/130006327320/
+
+@article{rbf,
+author="小林 正幸 and 小西 康夫 and 藤田 貞雄 and 石垣 博行",
+title="サポートベクタ回帰モデルを用いた超音波モータの位置決め制御",
+journal="精密工学会誌論文集",
+ISSN="13488724",
+publisher="公益社団法人 精密工学会",
+year="2006",
+month="may",
+volume="72",
+number="5",
+pages="596-601",
+URL="https://ci.nii.ac.jp/naid/110004717807/",
+DOI="",
+}
+%https://ci.nii.ac.jp/naid/110004717807
+
+%分類手法
+%------------------------------------
+@article{text_classification_showcase,
+author="永田 昌明 and 平 博順",
+title="情報論的学習理論とその応用：テキスト分類-学習理論の「見本市」-",
+journal="情報処理",
+ISSN="04478053",
+publisher="一般社団法人 情報処理学会",
+year="2001",
+month="jan",
+volume="42",
+number="1",
+pages="32-37",
+URL="https://ci.nii.ac.jp/naid/110002721174/",
+DOI="",
+}
+%https://ci.nii.ac.jp/naid/110002721174/
+
+@article{pattern_recognition_randomforests,
+author="飯山 将晃",
+title="使える!統計検定・機械学習-IV : Random Forestsを用いたパターン認識",
+journal="システム／制御／情報",
+ISSN="0916-1600",
+publisher="一般社団法人 システム制御情報学会",
+year="2015",
+month="",
+volume="59",
+number="2",
+pages="71-76",
+URL="https://ci.nii.ac.jp/naid/110009917786/",
+DOI="10.11509/isciesci.59.2_71",
+}
+%https://ci.nii.ac.jp/naid/110009917786/
+
+@article{natural_gradient_learning,
+author="甘利 俊一",
+title="自然勾配学習法-学習空間の幾何学",
+journal="計測と制御",
+ISSN="04534662",
+publisher="公益社団法人 計測自動制御学会",
+year="2001",
+month="oct",
+volume="40",
+number="10",
+pages="735-739",
+URL="https://ci.nii.ac.jp/naid/10006840081/",
+DOI="10.11499/sicejl1962.40.735",
+}
+%https://ci.nii.ac.jp/naid/10006840081/
+
+@article{k-nearest_neighbours,
+author="浦田 正夫",
+title="k-nearest neighbours 判別を用いたクラスター解析のバリデーション (種々のモデルの統計的解析)",
+journal="数理解析研究所講究録",
+ISSN="18802818",
+publisher="京都大学",
+year="2008",
+month="jun",
+volume="1603",
+number="",
+pages="111-119",
+URL="https://ci.nii.ac.jp/naid/110006688311/",
+DOI="",
+}
+%https://ci.nii.ac.jp/naid/110006688311/
+%------------------------------------
+
+@book{book_media,
+author = "亀井 昭宏",
+title = "電通広告事典",
+publisher = "電通",
+year = "2008"
+}
+
+@article{insight_tech,
+  title={FKC Corpus: a Japanese Corpus from New Opinion Survey Service},
+  author={Mitsuzawa, Kensuke and Tauchi, Maito and Domoulin, Mathieu and Nakashima, Masanori and Mizumoto, Tomoya},
+  journal={Proc. of the Novel Incentives for Collecting Data and Annotation from People: types, implementation, tasking requirements, workflow and results},
+  pages={11--18},
+  year={2016}
+}
+
+
+
+
+%%%------------------------------------------------%%%
+%%%%%-----------------------------%%%%%
